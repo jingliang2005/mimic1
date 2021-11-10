@@ -3,7 +3,7 @@
 *.lo
 *.o
 *.obj
-
+*.la
 # Compiled Dynamic libraries
 *.so
 *.dylib
@@ -51,6 +51,7 @@ include/config.h.in
 Makefile
 include/config.h
 include/stamp-h1
+build/
 
 # Test suite executables
 testsuite/play_client
@@ -88,3 +89,5 @@ _festsuite
 lang/cmulex/festival
 lang/cmulex/festlex_CMU.tar.gz
 
+*.log
+unittests/
